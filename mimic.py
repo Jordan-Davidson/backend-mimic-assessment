@@ -71,7 +71,7 @@ def print_mimic(mimic_dict, start_word):
     for i in range(0, 200):
         rand = mimic_dict.pop(random.choice(mimic_dict.keys()))
         random_words += rand
-    print(random_words)
+    print(' '.join(random_words))
 
 # Provided main(), calls mimic_dict() and mimic()
 def main():
